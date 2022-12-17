@@ -45,10 +45,20 @@ cursor: pointer;}
 
 .hero-pre-title {}
 
-.button type :hover {
+
+   .button-list {
+    color: #FFFFFF;
+cursor: pointer;}
+
+.button-list :hover {
    color:#4D5AE5; 
 }
 
 
-.button type :focus {
+.button-list :focus {
    color:#4D5AE5; }
+
+   .button-list {
+    color: #FFFFFF;
+cursor: pointer;}
+   
