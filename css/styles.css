@@ -1,0 +1,54 @@
+.site-body {
+    background-color: grey;
+}
+.list {list-style: none;}
+
+.link {
+    text-decoration: none ;
+}
+
+.header {}
+
+.header-navigation {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.heater-contact-info {}
+
+.header-email {}
+
+.header-tel {}
+
+.hero {}
+
+.main-button {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+cursor: pointer;}
+
+.hero-strategy {}
+
+.hero-title {}
+
+.hero-pre-title {}
+
+.button type :hover {
+   color:#4D5AE5; 
+}
+
+
+.button type :focus {
+   color:#4D5AE5; }
