@@ -1,4 +1,15 @@
-.site-body {
+
+:root {
+    --primary-color:color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+
+}
+
+body {
     background-color: grey;
 }
 .list {list-style: none;}
@@ -6,10 +17,32 @@
 .link {
     text-decoration: none ;
 }
-
+/* --------------HEADER---------------*/
 .header {}
 
 .header-navigation {}
+
+.logo-link {
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 1.33;
+
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+color: #4D5AE5;}
+
+.studio: {color: #2E2F42; }
+
+
+
 
 .header-list {}
 
@@ -22,6 +55,8 @@
 .header-email {}
 
 .header-tel {}
+
+/*------------HERO-------------*/
 
 .hero {}
 
@@ -46,7 +81,37 @@ cursor: pointer;}
 .hero-pre-title {}
 
 
-   .button-list {
+  /*-------What are we doing--------*/
+  
+  .explination-list {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;  
+color: #2E2F42;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-list {
     color: #FFFFFF;
 cursor: pointer;}
 
