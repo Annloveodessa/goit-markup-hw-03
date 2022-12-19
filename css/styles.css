@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color:color: #434455;
-    color: #2E2F42;
-   color: #4D5AE5;
+--primary-color: #434455;
+--color: #2E2F42;
+--color: #4D5AE5;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -66,7 +66,9 @@ font-family: 'Raleway';
     color: #2E2F42;
 }
 
-.header-link {}
+.header-link {
+
+}
 
 .link {
 
@@ -130,65 +132,89 @@ font-family: 'Raleway';
 .hero-strategy {
     color: #2E2F42;
 
-Font family: Roboto
-Font style: SemiBold
-Font size: 20px
-Line height: 1.2
-Line height: 102%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
-  
-        
-}
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1,2;
+
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
 
 .hero-pre-title {
+    
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+
+    /* or 150% */
+    letter-spacing: 0.02em;
+
+    /* SLATE */
     color: #434455;
-Text style: Body
-Font family: Roboto
-Font style: Regular
-Font size: 16px
-Line height: 1.5
-Line height: 128%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
 
 
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;}
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
 
 .hero-title {
-    color: #434455;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1,2;
 
-Font family: Roboto
-Font style: SemiBold
-Font size: 20px
-Line height: 1.2
-Line height: 102%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 
 }
 
 .main-button {
-    color: #FFFFFF;
-Font family: Roboto
-Font style: SemiBold
-Font size: 16px
-Line height: 1.18
-Line height: 100%
-Align: Left
-Vertical align: Center
-Letter spacing: 4%
+    
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
 
-cursor: pointer;}
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+cursor: pointer;
+}
 
 
 .button-link :hover {
@@ -210,14 +236,16 @@ color:  #4D5AE5;
   .explination-list {
     color: #2E2F42;
 
-Font family: Roboto
-Font style: SemiBold
-Font size: 36px
-Line height: 1.1
-Line height: 95%
-Align: Center
-Vertical align: Top
-Letter spacing: 2%
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1,1;
+
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 
     color: #2E2F42;
 
@@ -244,11 +272,6 @@ cursor: pointer;}
 cursor: pointer;}
 
 .team-our-title {
-   color: #2E2F42;
-Text style: Header 2 Font family: Roboto Font
- style: SemiBold Font size: 36px
-  Line height: 1.1
- Line height: 95% Align: Center Vertical align: Top Letter spacing: 2%
 
 }
    
@@ -258,30 +281,61 @@ Text style: Header 2 Font family: Roboto Font
 
 }
 .team-title {
-    color: #2E2F42;
+/* Header 2 */
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
 
-Font family: Roboto
-Font style: SemiBold
-Font size: 20px
-Line height: 1.2
-Line height: 102%
-Align: Center
-Vertical align: Top
-Letter spacing: 2%
+    /* identical to box height, or 111% */
+ 
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
     
   
     
 }
+
+.team-title-first{ 
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    
+       
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+
+}
 .team-pre-title {
-    color: #2E2F42;
-Font family: Roboto
- Font style: Regular
-  Font size: 16px 
-  Line height: 1.5 Line 
-  height: 128% 
-  Align: Center Vertical 
-  align: Top 
-  Letter spacing: 2% 
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    
+
+    /* SLATE */
+    color: #434455;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 /*------FOOTER---------*/
@@ -291,19 +345,20 @@ Font family: Roboto
 }
 .end-word {
 
-color: #E7E9FC;
-Text style: Body
-Font family: Roboto
-Font style: Regular
-Font size: 16px
-Line height: 1.5
-Line height: 128%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
-Fill Color Style: CORNFLOWER
-Fill: Solid
-color: #E7E9FC;
+
+
+    /* Body */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    /* or 150% */
+    letter-spacing: 0.02em;
+
+    /* CORNFLOWER */
+    color: #E7E9FC;
         
 }
 
@@ -339,7 +394,7 @@ color: #E7E9FC;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 
     /* identical to box height, or 133% */
     display: flex;
@@ -361,7 +416,7 @@ color: #E7E9FC;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
     
         /* identical to box height, or 150% */
         letter-spacing: 0.02em;
@@ -442,30 +497,43 @@ color: #2E2F42;
     }
 
     .menu-title {
-        color: #2E2F42;
-        Font family: Roboto
-Font style: SemiBold
-Font size: 20px
-Line height: 1.2
-Line height: 102%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
     }
 
     .pre-menu-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
         color: #434455;
-        Font family: Roboto
-Font style: Regular
-Font size: 16px
-Line height: 1.5
-Line height: 128%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
-Fill Color Style: SLATE
-Fill: Solid
-#434455
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
     }
         
 
