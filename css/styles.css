@@ -187,6 +187,12 @@ body {
 
 }
 
+.button:hover,
+.button:focus {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+}
+
 .main-button :hover {background-color: #404bbf;}
 
 .main-button :focus {background-color: #404bbf;}
